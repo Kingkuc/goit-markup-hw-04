@@ -121,7 +121,7 @@ gap: 30px;
   margin: 0 auto;
   background-image: url(../images/section-hero-background.jpg);
   max-width: 1600px;
-  box-shadow: inset 0 0 0 1600px rgba(47, 48, 58, 0.4);
+  box-shadow: inset 0 0 1600px rgba(47, 48, 58, 0.4);
 }
 
 .section-hero-header {
@@ -171,6 +171,24 @@ gap: 30px;
 .text-list-1-position {
   flex-basis: calc((100% - 90px) / 4);
   padding: 0;
+}
+
+.our-atuts-cointainer{
+display: flex;
+justify-content: center;
+padding: 25px 100px;
+background-color: #F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
+}
+
+.our-atuts-cointainer:focus,
+.our-atuts-cointainer:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.our-atuts-icon{
+ padding: 0;
 }
 
 .text-list-1-header {
