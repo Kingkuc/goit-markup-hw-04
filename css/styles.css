@@ -93,6 +93,10 @@ align-items: center;
 gap: 50px;
 }
 
+.contact-links > li {
+  display: flex;
+gap: 10px;}
+
 .contact-link {
   display: block;
   text-decoration: none;
