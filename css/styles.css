@@ -90,12 +90,8 @@ display: flex;
 justify-content: flex-end;
 list-style: none;
 align-items: center;
-gap: 50px;
+gap: 30px;
 }
-
-.contact-links > li {
-  display: flex;
-gap: 10px;}
 
 .contact-link {
   display: block;
@@ -110,7 +106,14 @@ gap: 10px;}
 .contact-link:hover,
 .contact-link:focus {
   color: var(--brand-accent-color);
+  fill: var(--brand-accent-color);
 }
+
+.contacts-icons {
+  color:#757575;
+  margin-right: 10px;
+  }
+
 .section-hero {
   background: #2f303a;
   padding: 200px 0;
