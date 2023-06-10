@@ -1,1 +1,1 @@
-https://kingkuc.github.io/goit-markup-hw-04/
+https://github.com/Kingkuc/goit-markup-hw-04.git
