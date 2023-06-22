@@ -305,18 +305,23 @@ padding: 0;
   padding-bottom: 30px;
 }
 
+.social-media-icon-link {
+  border-radius: 22px; 
+  padding: 12px;
+}
+
+.social-media-icon-link:fover,
+.social-media-icon-link:focus {
+  background-color: var(--brand-accent-color);
+}
+
 .social-media-icon {
   fill: #AFB1B8;
-  stroke: white;
-  padding: 12px;
   }
 
-.social-media-icon:hover,
-.social-media-icon:focus {
+.social-media-icon-link:hover .social-media-icon,
+.social-media-icon-link:focus .social-media-icon {
   fill: white;
-  background-color: var(--brand-accent-color);
-  border-radius: 22px;
-  stroke-opacity: 0.1;
   }
 
 .clients {
@@ -431,17 +436,20 @@ margin-bottom: 20px;
   gap: 10px;
 }
 
-.footer-social-media-icon {
-  fill: rgba(255, 255, 255, 1);
+.footer-social-media-icon-link {
   border-radius: 50%;
   padding: 12px;
   background: rgba(255, 255, 255, 0.1);
-  }
-
-.footer-social-media-icon:hover,
-.footer-social-media-icon:focus {
-  background: var(--brand-accent-color);
 }
+
+.footer-social-media-icon-link:hover,
+.footer-social-media-icon-link:focus {
+background-color: var(--brand-accent-color);
+}
+
+.footer-social-media-icon {
+  fill: rgba(255, 255, 255, 1);
+  }
 
 .portfolio-cointainer {
   padding-top: 76px;
